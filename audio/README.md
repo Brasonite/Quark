@@ -1,4 +1,8 @@
-# Quark Audio
+<div align="center">
+
+![Quark Audio banner](./banner.png)
+
+</div>
 
 This collection contains all utilities related to audio.
 

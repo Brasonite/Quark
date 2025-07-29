@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="quark_banner.png" alt="Quark banner" width="512"/>
+![Quark banner](,/quark_banner.png)
 
 </div>
 
