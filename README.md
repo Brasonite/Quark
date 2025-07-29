@@ -1,6 +1,6 @@
 <div align="center">
 
-![Quark banner](,/quark_banner.png)
+![Quark banner](./quark_banner.png)
 
 </div>
 
