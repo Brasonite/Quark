@@ -10,7 +10,7 @@ This project aims to create the simplest possible reusable modules for game deve
 
 ## Usage
 
-All utilities in the Quark Collection are stored as a single, self-contained script each. Installing them is as easy as downloading the script you wish to use and adding it to your project's folder.
+All utilities in the Quark Collection are stored as a single, self-contained, completely independent script each. Installing them is as easy as downloading the script you wish to use and adding it to your project's folder.
 
 Alternatively, if a script has extra installation steps (i.e. if it's meant to be added as an autoload global), it will contain that information at the top of the file, alongside its description.
 
