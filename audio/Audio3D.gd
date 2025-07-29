@@ -7,6 +7,7 @@
 
 class_name QuarkAudio3D extends Node
 
+## Plays an [AudioStream] in 3D space, optionally altering its volume and/or pitch.
 func play(sound: AudioStream, position: Vector3, volume := 1.0, pitch := 1.0) -> AudioStreamPlayer3D:
     var player := AudioStreamPlayer3D.new()
     player.stream = sound
@@ -21,6 +22,7 @@ func play(sound: AudioStream, position: Vector3, volume := 1.0, pitch := 1.0) ->
 
     return player
 
+## Plays an [AudioStream] in 3D space and on the given audio bus, optionally altering its volume and/or pitch.
 func play_on(sound: AudioStream, position: Vector3, bus: StringName, volume := 1.0, pitch := 1.0) -> AudioStreamPlayer3D:
     var player := AudioStreamPlayer3D.new()
     player.stream = sound

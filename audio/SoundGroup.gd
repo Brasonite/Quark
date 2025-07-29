@@ -6,6 +6,7 @@
 
 class_name SoundGroup extends AudioStream
 
+## The list of sounds available to the [SoundGroup].
 @export var sounds: Array[AudioStream] = []
 
 func _instantiate_playback() -> AudioStreamPlayback:

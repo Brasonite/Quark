@@ -2,6 +2,14 @@
 
 This collection contains all utilities related to audio.
 
-## Overall design
+## Audio playing modules
 
-All resources in Godot are reference-counted, which means no matter how many times you load the same resource, it will occupy the same amount of memory. Quark's audio system makes heavy use of this fact.
+The audio playing modules, comprised of [`QuarkAudio1D`](./Audio1D.gd), [`QuarkAudio2D`](./Audio2D.gd) and [`QuarkAudio3D`](./Audio3D.gd), are responsible for playing audio from anywhere in the project. They must each be added as autoload singletons from the editor in order to work.
+
+These modules will play an `AudioStream` on demand with the given parameters and will automatically clean up afterwards.
+
+## Audio source modules
+
+The audio source modules, currently limited to just [`SoundGroup`](./SoundGroup.gd), provide audio data for audio stream players.
+
+More specifically, the [`SoundGroup`](./SoundGroup.gd) resource can be created as an in-engine resource and will act as an `AudioStream` when prompted by the player it's in.

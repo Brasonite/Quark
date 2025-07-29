@@ -7,6 +7,7 @@
 
 class_name QuarkAudio1D extends Node
 
+## Plays an [AudioStream], optionally altering its volume and/or pitch.
 func play(sound: AudioStream, volume := 1.0, pitch := 1.0) -> AudioStreamPlayer:
     var player := AudioStreamPlayer.new()
     player.stream = sound
@@ -20,6 +21,7 @@ func play(sound: AudioStream, volume := 1.0, pitch := 1.0) -> AudioStreamPlayer:
 
     return player
 
+## Plays an [AudioStream] on the given audio bus, optionally altering its volume and/or pitch.
 func play_on(sound: AudioStream, bus: StringName, volume := 1.0, pitch := 1.0) -> AudioStreamPlayer:
     var player := AudioStreamPlayer.new()
     player.stream = sound
