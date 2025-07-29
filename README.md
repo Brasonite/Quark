@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="quark/quark_banner.png" alt="Quark banner" width="512"/>
+<img src="quark_banner.png" alt="Quark banner" width="512"/>
 
 </div>
 
@@ -14,7 +14,7 @@ All utilities in the Quark Collection are stored as a single, self-contained scr
 
 Alternatively, if a script has extra installation steps (i.e. if it's meant to be added as an autoload global), it will contain that information at the top of the file, alongside its description.
 
-**Warning:** Quark is not afraid of breaking compatibility between file versions. Check the [version number](https://semver.org/) on top of each file to know if it has API-breaking changes!
+**WARNING:** Quark is not afraid of breaking compatibility between file versions. Check the [version number](https://semver.org/) on top of each file to know if it has API-breaking changes!
 
 ## Origin
 
