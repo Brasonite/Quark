@@ -8,7 +8,9 @@
 
 class_name QuarkSceneManager extends Node
 
+## The scene has just started loading.
 signal started_loading(path: String)
+## The scene has just finished being loaded.
 signal finished_loading(path: String)
 
 var current_scene_path := ""
