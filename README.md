@@ -8,6 +8,8 @@ The **Quark Collection** is a library of single-file utilities built for use in 
 
 This project aims to create the simplest possible reusable modules for game development while also keeping the flexibility and power of more complex solutions.
 
+More in-depth explanations for both Quark itself and each of its modules can be found on [the Quark website](https://quark.brasonite.com).
+
 ## Usage
 
 All utilities in the Quark Collection are stored as a single, self-contained, completely independent script each. Installing them is as easy as downloading the script you wish to use and adding it to your project's folder.
